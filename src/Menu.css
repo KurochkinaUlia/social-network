@@ -1,0 +1,25 @@
+.menu {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    height: 650px;
+    border: 1px solid #000000;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+    background-color: #56F2D3;
+}
+
+.menu li {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.menu li:last-child {
+    margin-top: 40px;
+}
+
+.menu li a {
+    text-decoration: none;
+}
