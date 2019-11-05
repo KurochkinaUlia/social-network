@@ -1,0 +1,17 @@
+.headpiece {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 780px;
+    height: 120px;
+    background-image: url("https://litobozrenie.com/wp-content/uploads/2017/01/Venetsiya1.jpg");
+    background-position: center;
+}
+.nic {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100px;
+    height: 100px;
+    background-image: url("https://24smi.org/public/media/news/2017/10/20/LDWOG0PdQGbO_sobaki-nauchilis-proiavliat-emotsii-dlia-obshcheni.jpg");
+    background-position: center;
+    background-size: cover;
+}
