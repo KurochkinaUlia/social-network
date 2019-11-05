@@ -7,7 +7,6 @@ const Menu = () => {
         <li><a href="#">Music</a></li>
         <li><a href="#">Settings</a></li>
         <li><a href="#">Test</a></li>
-        <li><a href="#">Test22</a></li>
         </ul>
 };
 
