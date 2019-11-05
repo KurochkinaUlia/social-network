@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Menu = () => {
     return <ul className="menu">
         <li><a href="#">Profile</a></li>
@@ -9,7 +8,8 @@ const Menu = () => {
         <li><a href="#">Settings</a></li>
         <li><a href="#">Test</a></li>
         <li><a href="#">Test22</a></li>
+        <li><a href="#">Test33</a></li>
         </ul>
-}
+};
 
 export default Menu;
