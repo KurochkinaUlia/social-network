@@ -8,7 +8,6 @@ const Menu = () => {
         <li><a href="#">Settings</a></li>
         <li><a href="#">Test</a></li>
         <li><a href="#">Test22</a></li>
-        <li><a href="#">Test33</a></li>
         </ul>
 };
 
