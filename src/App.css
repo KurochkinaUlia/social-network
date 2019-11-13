@@ -4,7 +4,10 @@
     border: 1px solid #000000;
     width: 1000px;
     height: 800px;
+    background-color: #FDF8D4;
+
 }
 .profile {
     display: flex;
 }
+

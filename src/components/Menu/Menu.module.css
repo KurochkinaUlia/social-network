@@ -22,4 +22,9 @@
 
 .menu li a {
     text-decoration: none;
+    color: #000;
+}
+
+.menu li a.active {
+    color: #898886;
 }
