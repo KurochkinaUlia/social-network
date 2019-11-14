@@ -18,13 +18,13 @@ const App = () => {
         <BrowserRouter>
             <div className="app-wrapper">
                 <Header/>
-                <div className="profile">
+                <div className="profiles">
                     <Menu/>
-                    <Route path='/messages' component={Dialogs}/>
-                    <Route path='/profile' component={Profile}/>
-                    <Route path='/news' component={News}/>
-                    <Route path='/music' component={Music}/>
-                    <Route path='/settings' component={Settings}/>
+                    <Route path="/dialogs" component={Dialogs}/>
+                    <Route path="/profile" component={Profile}/>
+                    <Route path="/news" component={News}/>
+                    <Route path="/music" component={Music}/>
+                    <Route path="/settings" component={Settings}/>
                 </div>
             </div>
         </BrowserRouter>
