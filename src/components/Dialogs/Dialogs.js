@@ -2,34 +2,34 @@ import React from 'react';
 import cl from './Dialogs.module.css';
 import {NavLink} from "react-router-dom";
 
+const DialogItem = (props) => {
+    let path = "/Dialogs/" + props.id;
+    return <div className={cl.dialog + ' ' + cl.active}>
+        <NavLink to={path}>{props.name}</NavLink>
+    </div>
+}
+
+const Message = (props) => {
+    return <div className={cl.message}>{props.message}</div>
+}
 const Dialogs = (props) => {
     return (
         <div className={cl.dialogs}>
             <div className={cl.dialogsItem}>
-                <div className={cl.dialog + ' ' + cl.active}>
-                    <NavLink to="/Dialogs/1">Юля</NavLink>
-                </div>
-                <div className={cl.dialog}>
-                    <NavLink to="/Dialogs/2">Маша</NavLink>
-                </div>
-                <div className={cl.dialog}>
-                    <NavLink to="/Dialogs/3">Света</NavLink>
-                </div>
-                <div className={cl.dialog}>
-                    <NavLink to="/Dialogs/4">Таня</NavLink>
-                </div>
-                <div className={cl.dialog}>
-                    <NavLink to="/Dialogs/5">Соня</NavLink>
-                </div>
-                <div className={cl.dialog}>
-                    <NavLink to="/Dialogs/6">Даша</NavLink>
-                </div>
-
+                <DialogItem name="Юля" id="1"/>
+                <DialogItem name="Даша" id="2"/>
+                <DialogItem name="Света" id="3"/>
+                <DialogItem name="Таня" id="4"/>
+                <DialogItem name="Соня" id="5"/>
+                <DialogItem name="Маша" id="6"/>
             </div>
+
             <div className={cl.messages}>
-                <div className={cl.message}>Привет</div>
-                <div className={cl.message}>Пошли учить англ.</div>
-                <div className={cl.message}>Ох ты!</div>
+                <Message message="Привет"/>
+                <Message message="Пошли учить англ."/>
+                <Message message="Ох ты!"/>
+                <Message message="Ох ты!"/>
+                <Message message="Ох ты!"/>
             </div>
         </div>
     )

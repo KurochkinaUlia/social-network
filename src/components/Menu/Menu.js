@@ -11,5 +11,4 @@ const Menu = () => {
         <li><NavLink to="/Settings" activeClassName={cl.active}>Settings</NavLink></li>
         </ul>
 };
-
 export default Menu;

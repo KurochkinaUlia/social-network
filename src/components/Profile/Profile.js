@@ -1,14 +1,15 @@
 import React from 'react';
 import cl from './Profile.module.css';
-import MyPosts from "./MyPosts/MyPosts";
+import MyPosts from './MyPosts/MyPosts';
+import ProfileInfo from "../ProfileInfo/ProfileInfo";
 
 
 const Profile = () => {
-    return <div className={cl.profile}>
-        <div className={cl.headpiece}>  </div>
-        <div className={cl.nic}>  </div>
-        <div className={cl.info}>  </div>
-        <MyPosts/>
-    </div>
+    return (
+        <div>
+            <ProfileInfo/>
+            <MyPosts/>
+        </div>
+    )
 };
 export default Profile;
