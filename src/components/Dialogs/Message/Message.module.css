@@ -1,12 +1,11 @@
-.dialogs {
+/*.dialogs {
     display: grid;
     grid-template-columns: 6fr 10fr;
     padding: 10px;
-
-}
-.messages {
-    /*padding-left: 100px;*/
-}
+}*/
+/*.message {
+    padding-left: 100px;
+}*/
 .dialogsItem .active {
     color: #F2183C;
 }
