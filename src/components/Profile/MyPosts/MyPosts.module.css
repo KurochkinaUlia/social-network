@@ -1,8 +1,15 @@
 .post {
-    border: 1px solid #000000;
+    /*border: 1px solid #000000;*/
     margin-top: 20px;
-    margin-left: 10px;
 }
 .posted {
     margin-bottom: 10px;
+    margin-left: 10px;
  }
+.posts {
+    margin: 0px;
+    padding: 10px;
+}
+.post textarea {
+    margin-left: 10px;
+}

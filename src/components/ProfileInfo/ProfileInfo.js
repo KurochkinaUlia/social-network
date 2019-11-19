@@ -15,7 +15,7 @@ const ProfileInfo = () => {
                     <img className={cl.nic}
                          src='https://24smi.org/public/media/news/2017/10/20/LDWOG0PdQGbO_sobaki-nauchilis-proiavliat-emotsii-dlia-obshcheni.jpg'/>
                 </div>
-                <div>
+                <div className={cl.ava}>
                     ava + description
                 </div>
             </div>
