@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74f56836-ff41-4bc8-a838-bfdc23c3a1d1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Redux/State.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Dialogs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dialogs/Message/Message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Profile/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -19,26 +18,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="social-network" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+            <state relative-caret-position="504">
+              <caret line="26" column="96" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+            <state relative-caret-position="225">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
-                <element signature="e#171#306#0" />
-                <element signature="e#310#503#0" />
-                <element signature="e#491#735#0" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -47,8 +50,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+            <state relative-caret-position="175">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -59,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+            <state relative-caret-position="175">
+              <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -68,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Dialogs/Dialogs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="200">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -80,8 +83,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/Dialogs/Message/Message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state>
+              <caret lean-forward="true" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Redux/State.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
+              <folding>
+                <element signature="e#89#224#0" />
+                <element signature="e#577#821#0" />
+                <element signature="e#569#790#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -94,8 +123,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -135,19 +164,21 @@
         <option value="$PROJECT_DIR$/src/components/ProfileInfo/ProfileInfo.module.css" />
         <option value="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.module.css" />
         <option value="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.module.css" />
-        <option value="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.js" />
         <option value="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/Dialogs.js" />
         <option value="$PROJECT_DIR$/src/components/Dialogs/Message/Dialogs.module.css" />
         <option value="$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.js" />
         <option value="$PROJECT_DIR$/src/components/Header/Header.module.css" />
         <option value="$PROJECT_DIR$/src/components/Dialogs/Message/Message.module.css" />
         <option value="$PROJECT_DIR$/src/components/Dialogs/Dialogs.module.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js" />
-        <option value="$PROJECT_DIR$/src/components/Profile/Profile.js" />
-        <option value="$PROJECT_DIR$/src/components/Dialogs/Dialogs.js" />
         <option value="$PROJECT_DIR$/src/components/Dialogs/Message/Message.js" />
+        <option value="$PROJECT_DIR$/src/State.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/components/Profile/Profile.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/Dialogs/Dialogs.js" />
+        <option value="$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js" />
+        <option value="$PROJECT_DIR$/src/Redux/State.js" />
+        <option value="$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.js" />
       </list>
     </option>
   </component>
@@ -170,11 +201,6 @@
             <path>
               <item name="social-network" type="b2602c69:ProjectViewProjectNode" />
               <item name="social-network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="social-network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="social-network" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="social-network" type="b2602c69:ProjectViewProjectNode" />
@@ -202,35 +228,6 @@
               <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
               <item name="DialogsItem" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="social-network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="social-network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Dialogs" type="462c0819:PsiDirectoryNode" />
-              <item name="Message" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="social-network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="social-network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Header" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="social-network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="social-network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="social-network" type="b2602c69:ProjectViewProjectNode" />
-              <item name="social-network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -253,18 +250,18 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\ula_js\social-network\src\components\Profile" />
-      <recent name="F:\ula_js\social-network\src\components\Profile\MyPosts" />
-      <recent name="F:\ula_js\social-network\src\components\Menu" />
-      <recent name="F:\ula_js\social-network\src" />
-      <recent name="F:\ula_js\social-network\src\components\index" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\ula_js\social-network\src\components\Dialogs\Message" />
       <recent name="F:\ula_js\social-network\src\components\Dialogs\DialogsItem" />
       <recent name="F:\ula_js\social-network\src\components\ProfileInfo" />
       <recent name="F:\ula_js\social-network\src\components\Profile\MyPosts" />
+      <recent name="F:\ula_js\social-network\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ula_js\social-network\src\Redux" />
+      <recent name="F:\ula_js\social-network\src\components\Profile" />
+      <recent name="F:\ula_js\social-network\src\components\Profile\MyPosts" />
+      <recent name="F:\ula_js\social-network\src\components\Menu" />
       <recent name="F:\ula_js\social-network\src" />
     </key>
   </component>
@@ -279,6 +276,23 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -297,7 +311,7 @@
       <workItem from="1573464582995" duration="38017000" />
       <workItem from="1573735150806" duration="12383000" />
       <workItem from="1574085814316" duration="36519000" />
-      <workItem from="1574687971986" duration="7034000" />
+      <workItem from="1574687971986" duration="18450000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1572527717534</created>
@@ -397,20 +411,27 @@
       <option name="project" value="LOCAL" />
       <updated>1574184107615</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Вынесла массивы в App. Прокинула массивы, через props.">
+      <created>1574765014779</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1574765014779</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125224000" />
+    <option name="totallyTimeSpent" value="136640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931973" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="npm" order="2" sideWeight="0.50068027" side_tool="true" visible="true" weight="0.24973656" />
+      <window_info id="Favorites" order="3" sideWeight="0.50068027" side_tool="true" weight="0.24973656" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -421,7 +442,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.032467533" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20454545" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.20454545" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32900432" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -485,7 +506,8 @@
     <MESSAGE value="Использовала массивы для диалогов и сообщений." />
     <MESSAGE value="Использовала метод массива .map для диалогов, сообщений и лайков." />
     <MESSAGE value="Вынесла из Dialogs - DialogsItem и Message." />
-    <option name="LAST_COMMIT_MESSAGE" value="Вынесла из Dialogs - DialogsItem и Message." />
+    <MESSAGE value="Вынесла массивы в App. Прокинула массивы, через props." />
+    <option name="LAST_COMMIT_MESSAGE" value="Вынесла массивы в App. Прокинула массивы, через props." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/favicon.ico" />
@@ -573,16 +595,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DialogItem.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DialogsItem.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/DialogsItem/DialogsItem.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -675,17 +687,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="25" column="95" selection-start-line="25" selection-start-column="95" selection-end-line="25" selection-end-column="95" />
+        <state relative-caret-position="504">
+          <caret line="26" column="96" selection-start-line="26" selection-start-column="96" selection-end-line="26" selection-end-column="96" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/MyPosts/MyPosts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        <state relative-caret-position="175">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -694,15 +719,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Profile/Profile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+        <state relative-caret-position="175">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/Dialogs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="200">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -711,22 +736,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Dialogs/Message/Message.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        <state>
+          <caret lean-forward="true" selection-end-column="26" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/Redux/State.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="34" column="22" lean-forward="true" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        <state>
+          <caret lean-forward="true" />
           <folding>
-            <element signature="e#171#306#0" />
-            <element signature="e#310#503#0" />
-            <element signature="e#491#735#0" />
+            <element signature="e#89#224#0" />
+            <element signature="e#577#821#0" />
+            <element signature="e#569#790#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Profile/MyPosts/Post/Post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
