@@ -27,9 +27,9 @@ let state = {
     },
     friendsPage:{
         friends: [
-            {id: 1, name: 'Даша'},
-            {id: 2, name: 'Настя'},
-            {id: 3, name: 'Наташа'},
+            {id: 1, name: 'Даша', src: 'https://avatars.mds.yandex.net/get-pdb/1945646/10d9e642-4b9c-4cdc-9c8e-d4f82dc3ebe6/s1200'},
+            {id: 2, name: 'Настя', src: 'https://avatars.mds.yandex.net/get-pdb/1945646/10d9e642-4b9c-4cdc-9c8e-d4f82dc3ebe6/s1200'},
+            {id: 3, name: 'Наташа', src: 'https://avatars.mds.yandex.net/get-pdb/1945646/10d9e642-4b9c-4cdc-9c8e-d4f82dc3ebe6/s1200'},
         ],
     }
 }
