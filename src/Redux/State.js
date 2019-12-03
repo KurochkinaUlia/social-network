@@ -23,7 +23,14 @@ let state = {
             {id: 4, name: 'Таня'},
             {id: 5, name: 'Соня'},
             {id: 6, name: 'Маша'},
-        ]
+        ],
+    },
+    friendsPage:{
+        friends: [
+            {id: 1, name: 'Даша'},
+            {id: 2, name: 'Настя'},
+            {id: 3, name: 'Наташа'},
+        ],
     }
 }
 export default state;
