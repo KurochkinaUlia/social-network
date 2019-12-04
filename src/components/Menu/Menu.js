@@ -19,7 +19,7 @@ const Menu = (props) => {
         <li><NavLink to="/Settings" activeClassName={cl.active}>Settings</NavLink></li>
         <li><NavLink to="/Friends" activeClassName={cl.active}><h3>Friends</h3></NavLink>
 
-            <Friends state={props.state}   />
+            <Friends state={props.state} />
         </li>
 
         </ul>

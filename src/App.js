@@ -31,7 +31,6 @@ const App = (props) => {
                     <Route path="/news" render={() => <News /> }/>
                     <Route path="/music" render={() => <Music /> }/>
                     <Route path="/settings" render={() => <Settings /> }/>
-                    {/*<Route path="/friends" render={ () => <FriendsInfo state={props.} comp={'app'}/> }/>*/}
 
                 </div>
             </div>
